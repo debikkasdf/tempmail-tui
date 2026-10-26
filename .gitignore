@@ -1,0 +1,20 @@
+# Сборка PyInstaller
+build/
+dist/
+*.exe
+*.pyz
+*.pkg
+*.toc
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Локальные настройки и сохранённые ящики (содержат личные адреса)
+tempmail_config.json
+
+# Секреты и токены
+.ghtoken
+.env
